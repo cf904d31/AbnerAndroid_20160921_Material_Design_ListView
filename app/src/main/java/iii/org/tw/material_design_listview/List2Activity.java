@@ -102,10 +102,12 @@ public class List2Activity extends AppCompatActivity {
         public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
             //-----老師寫的版本
+//            View view = View.inflate(List2Activity.this,R.layout.layout_recycler_item_title,null);
+//            MyViewHolder holder = new MyViewHolder(view);
             View view = View.inflate(List2Activity.this,R.layout.layout_recycler_item_title,null);
             MyViewHolder holder = new MyViewHolder(view);
 
-//            //-- google的版本
+            //-- google的版本
 //            //--https://developer.android.com/training/material/lists-cards.html?hl=zh-tw
 //            View view = LayoutInflater.from(List2Activity.this)
 //                    .inflate(R.layout.layout_recycler_item_title, parent, false);
